@@ -1,0 +1,149 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700);
+
+/*Copied from hipsteer project*/
+
+body {
+	font-family: "Merriweather", "Times New Roman", serif;
+	font-size: 30px;
+	line-height: 1.5;
+
+	background-color: #575757;
+	
+	background-image: url(../images/wallpaper.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+
+	color: #FCF5EB;
+}
+
+div.logo {
+	text-align: center;
+	margin-top: 60px;
+}
+
+header {
+	width: 950px;
+	font-size: 9px;
+	text-align: right;
+	color: #FCF5EB;
+	font-weight: 400;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+div.logo img {
+	width: 800px;
+	padding: 40px;
+}
+
+section {
+	width: 50%;
+	text-align: center;
+	padding: 20px 40px 20px 40px;
+	margin: 20px auto;
+}
+
+section.tagline {
+	padding-top: 80px;
+	padding-bottom: 50px;
+	border-top: 2px solid #FCF5EB;
+}
+
+div.sharebutton img {
+	width: 50px;
+}
+
+table.headertable {
+	width: 100%;
+}
+
+td.info {
+	text-align: right;
+}
+
+td.language a {
+	color: #FCF5EB;
+	text-decoration: none;
+}
+
+td.language a:hover {
+	color: #2980B9;
+}
+
+table.maintable {
+	text-align: center;
+	margin: 20px auto;
+	width: 550px;
+	font-size: 13px;
+}
+
+td {
+/*	border: 1px solid #FCF5EB;*/
+/*	padding: 5px;*/
+	color: #FCF5EB;
+	text-align: left;
+}
+
+td.facebook {
+	vertical-align: top;
+}
+
+td.twitter {
+	vertical-align: bottom;
+}
+
+/*footer {
+	color: #A9A9A9;
+	padding: 55px 0 0 0;
+	text-align: center;
+	font-size: 13px;
+}*/
+
+#mc_embed_signup {
+/*	position: absolute;
+	top: 50%;*/
+	width: 400px;
+	height: 110px;
+	/*background-color: #1D1D1D;*/
+	background-color: rgba(0,0,0,0.2);
+	/*margin: 10px;*/
+	padding: 15px;
+}
+
+input[type=email] {
+	font-size: 20px;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #FCF5EB;
+	/*background-color: #1D1D1D;*/
+	background-color: rgba(0,0,0,0);
+	color: #FCF5EB;
+	padding: 0;
+	margin: 0 0 10px 0;
+	outline: none;
+	transition: border 1s;
+}
+
+input[type=email]:focus {
+	border-bottom-color: #2880B9;
+}
+
+input[type=submit] {
+/*	background: #1D1D1D;*/
+	background: rgba(0,0,0,0);
+	color: #FCF5EB;
+	border: 2px solid #FCF5EB;
+	margin: 0;
+	padding: 5px 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+/*
+@media screen and (max-width: 560px) {
+	section.content {
+		width: 100%;
+		padding: 0 10px;
+	}
+}*/
